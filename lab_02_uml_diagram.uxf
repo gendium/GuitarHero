@@ -206,7 +206,8 @@ void setGuitar(Guitar)</panel_attributes>
       <w>300</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
+    <panel_attributes>lt=&lt;.
+1</panel_attributes>
     <additional_attributes>280.0;110.0;110.0;110.0;110.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -217,7 +218,8 @@ void setGuitar(Guitar)</panel_attributes>
       <w>340</w>
       <h>170</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
+    <panel_attributes>lt=&lt;.
+1</panel_attributes>
     <additional_attributes>320.0;10.0;150.0;10.0;150.0;150.0;10.0;150.0</additional_attributes>
   </element>
   <element>
