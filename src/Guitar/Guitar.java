@@ -1,5 +1,4 @@
-package Guitar;
-/*Author:    Alec Rulev & Sean Egger
+/*Author:    Alec Rulev & Sean Egger [Worked on whole lab together]
  * Class: CSI-340-01
  * Assignment: Lab 2
  * Date Assigned:9/21/2017
@@ -15,6 +14,8 @@ package Guitar;
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
+package Guitar;
+
 public interface Guitar{
 	public void playGuitar();
 	

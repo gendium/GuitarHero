@@ -1,4 +1,4 @@
-/*Author:    Alec Rulev & Sean Egger
+/*Author:    Alec Rulev & Sean Egger [Worked on whole lab together]
  * Class: CSI-340-01
  * Assignment: Lab 2
  * Date Assigned:9/21/2017
@@ -14,11 +14,24 @@
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
+import Characters.*;
+import Characters.Character;
+import Guitar.*;
+import SoloActs.*;
+
 public class GuitarHero {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
+		Character angusYoung = new CharacterAngusYoung();
+		angusYoung.playGuitar();
+		angusYoung.playSolo();
+		
+		
+		angusYoung.setGuitar(new GuitarGibsonSG());
+		angusYoung.setSoloAct(new SoloActSmashTheGuitar());
+		angusYoung.playGuitar();
+		angusYoung.playSolo();
+	}	
 
 }

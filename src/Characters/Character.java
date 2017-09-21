@@ -1,8 +1,4 @@
-package Characters;
-import Guitar.Guitar;
-import SoloActs.SoloAct;
-
-/*Author:    Alec Rulev & Sean Egger
+/*Author:    Alec Rulev & Sean Egger [Worked on whole lab together]
  * Class: CSI-340-01
  * Assignment: Lab 2
  * Date Assigned:9/21/2017
@@ -18,6 +14,11 @@ import SoloActs.SoloAct;
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
+package Characters;
+import Guitar.Guitar;
+import SoloActs.SoloAct;
+
+
 public abstract class Character {
 
 	Guitar guitar;
@@ -41,4 +42,14 @@ public abstract class Character {
 	{
 		this.name = myName;
 	}
+	
+	public void playGuitar() {
+		this.guitar.playGuitar();
+	}
+	
+	public void playSolo() {
+		this.soloAct.playSoloAct();
+	}
+	
+	abstract void display();
 }
