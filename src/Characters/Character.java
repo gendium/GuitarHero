@@ -1,3 +1,7 @@
+package Characters;
+import Guitar.Guitar;
+import SoloActs.SoloAct;
+
 /*Author:    Alec Rulev & Sean Egger
  * Class: CSI-340-01
  * Assignment: Lab 2
@@ -14,6 +18,27 @@
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
-public interface SoloAct {
-	public void playSoloAct();
+public abstract class Character {
+
+	Guitar guitar;
+	SoloAct soloAct;
+	String name;
+	public Character()
+	{
+		
+	}
+	
+	public void setGuitar(Guitar myGuitar)
+	{
+		this.guitar = myGuitar;
+	}
+	
+	public void setSoloAct(SoloAct mySoloAct)
+	{
+		this.soloAct = mySoloAct;
+	}
+	public void setSoloAct(String myName)
+	{
+		this.name = myName;
+	}
 }

@@ -1,3 +1,4 @@
+package SoloActs;
 /*Author:    Alec Rulev & Sean Egger
  * Class: CSI-340-01
  * Assignment: Lab 2
@@ -14,7 +15,6 @@
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
-public interface Guitar{
-	public void playGuitar();
-	
+public interface SoloAct {
+	public void playSoloAct();
 }

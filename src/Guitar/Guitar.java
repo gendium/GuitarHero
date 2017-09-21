@@ -1,3 +1,4 @@
+package Guitar;
 /*Author:    Alec Rulev & Sean Egger
  * Class: CSI-340-01
  * Assignment: Lab 2
@@ -14,24 +15,7 @@
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
-public abstract class Character {
-
-	Guitar myGuitar;
-	String myName;
-	SoloAct mySoloAct;
+public interface Guitar{
+	public void playGuitar();
 	
-	public Character()
-	{
-		
-	}
-	
-	public void setMyGuitar(Guitar myGuitar)
-	{
-		this.myGuitar = myGuitar;
-	}
-	
-	public void setMySoloAct(SoloAct mySoloAct)
-	{
-		this.mySoloAct = mySoloAct;
-	}
 }
