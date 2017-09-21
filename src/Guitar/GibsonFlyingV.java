@@ -16,7 +16,7 @@
 */
 package Guitar;
 
-public class GuitarGibsonFlyingV implements Guitar{
+public class GibsonFlyingV implements Guitar{
 @Override
 public void playGuitar() {
 	System.out.println("Playing the Gibson Flying V");

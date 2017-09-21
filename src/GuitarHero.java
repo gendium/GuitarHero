@@ -23,13 +23,13 @@ public class GuitarHero {
 
 	public static void main(String[] args) {
 
-		Character angusYoung = new CharacterAngusYoung();
+		Character angusYoung = new AngusYoung();
 		angusYoung.playGuitar();
 		angusYoung.playSolo();
 		
 		
-		angusYoung.setGuitar(new GuitarGibsonSG());
-		angusYoung.setSoloAct(new SoloActSmashTheGuitar());
+		angusYoung.setGuitar(new GibsonSG());
+		angusYoung.setSoloBehaviour(new SmashTheGuitar());
 		angusYoung.playGuitar();
 		angusYoung.playSolo();
 	}	

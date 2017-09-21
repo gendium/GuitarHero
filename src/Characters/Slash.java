@@ -19,18 +19,23 @@ package Characters;
 import Guitar.*;
 import SoloActs.*;
 
-public class CharacterJimiHendrix extends Character{
+public class Slash extends Character{
 
-	public CharacterJimiHendrix()
+	public Slash()
 	{
-		this.name = "Jimi Hendrix";
-		this.guitar = new GuitarGibsonSG();
-		this.soloAct = new SoloActSmashTheGuitar();
+		this.name = "Slash";
+		this.guitar = new GibsonFlyingV();
+		this.soloBehaviour = new JumpOffTheStage();
 	}
 
 	@Override
 	void display() {
-		System.out.println("I am Jimi Hendrix");
+		System.out.println("I am Slash and I am playing the guitar: ");
+		this.guitar.playGuitar();
+		System.out.println(" with the solo act of: ");
+		this.soloBehaviour.playSoloAct();
 	}
 	
+	
 }
+	

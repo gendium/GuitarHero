@@ -14,21 +14,12 @@
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
-package Characters;
+package Guitar;
 
-import Guitar.*;
-import SoloActs.*;
-
-public class CharacterAngusYoung extends Character{
-	public CharacterAngusYoung()
-	{
-		this.name = "Angus Young";
-		this.guitar = new GuitarFenderTelecaster();
-		this.soloAct = new SoloActGuitarOnFire();
-	}
-
+public class FenderTelecaster implements Guitar{
 	@Override
-	void display() {
-		System.out.println("I am Angus Young");
+	public void playGuitar() {
+		System.out.println("Playing the Fender Telecaster");
+		
 	}
 }

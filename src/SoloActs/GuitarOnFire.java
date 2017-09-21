@@ -14,12 +14,12 @@
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
-package Guitar;
+package SoloActs;
 
-public class GuitarFenderTelecaster implements Guitar{
-	@Override
-	public void playGuitar() {
-		System.out.println("Playing the Fender Telecaster");
-		
-	}
+public class GuitarOnFire implements Solo{
+@Override
+public void playSoloAct() {
+	System.out.println("Performs the Solo Act of Guitar on Fire");
+	
+}
 }

@@ -19,23 +19,16 @@ package Characters;
 import Guitar.*;
 import SoloActs.*;
 
-public class CharacterSlash extends Character{
-
-	public CharacterSlash()
+public class AngusYoung extends Character{
+	public AngusYoung()
 	{
-		this.name = "Slash";
-		this.guitar = new GuitarGibsonFlyingV();
-		this.soloAct = new SoloActJumpOffTheStage();
+		this.name = "Angus Young";
+		this.guitar = new FenderTelecaster();
+		this.soloBehaviour = new GuitarOnFire();
 	}
 
 	@Override
 	void display() {
-		System.out.println("I am Slash and I am playing the guitar: ");
-		this.guitar.playGuitar();
-		System.out.println(" with the solo act of: ");
-		this.soloAct.playSoloAct();
+		System.out.println("I am Angus Young");
 	}
-	
-	
 }
-	

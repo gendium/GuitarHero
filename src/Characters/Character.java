@@ -16,13 +16,13 @@
 */
 package Characters;
 import Guitar.Guitar;
-import SoloActs.SoloAct;
+import SoloActs.Solo;
 
 
 public abstract class Character {
 
 	Guitar guitar;
-	SoloAct soloAct;
+	Solo soloBehaviour;
 	String name;
 	public Character()
 	{
@@ -34,9 +34,9 @@ public abstract class Character {
 		this.guitar = myGuitar;
 	}
 	
-	public void setSoloAct(SoloAct mySoloAct)
+	public void setSoloBehaviour(Solo mySoloAct)
 	{
-		this.soloAct = mySoloAct;
+		this.soloBehaviour = mySoloAct;
 	}
 	public void setSoloAct(String myName)
 	{
@@ -48,7 +48,7 @@ public abstract class Character {
 	}
 	
 	public void playSolo() {
-		this.soloAct.playSoloAct();
+		this.soloBehaviour.playSoloAct();
 	}
 	
 	abstract void display();

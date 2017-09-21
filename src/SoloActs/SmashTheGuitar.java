@@ -16,7 +16,7 @@
 */
 package SoloActs;
 
-public class SoloActSmashTheGuitar implements SoloAct {
+public class SmashTheGuitar implements Solo {
 @Override
 public void playSoloAct() {
 	System.out.println("Performs Solo Act of Smashing the Guitar");

@@ -14,8 +14,23 @@
  *  retain  a  copy  of  this  assignment  on  its database for the purpose of 
  *  future plagiarism checking)
 */
-package SoloActs;
+package Characters;
 
-public interface SoloAct {
-	public void playSoloAct();
+import Guitar.*;
+import SoloActs.*;
+
+public class JimiHendrix extends Character{
+
+	public JimiHendrix()
+	{
+		this.name = "Jimi Hendrix";
+		this.guitar = new GibsonSG();
+		this.soloBehaviour = new SmashTheGuitar();
+	}
+
+	@Override
+	void display() {
+		System.out.println("I am Jimi Hendrix");
+	}
+	
 }
